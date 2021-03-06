@@ -22,6 +22,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
     " Plug 'RRethy/vim-illuminate'
+    " ayu theme
+    Plug 'ayu-theme/ayu-vim'
 
   if exists('g:vscode')
     " Easy motion for VSCode
